@@ -19,4 +19,37 @@ section 3
   "Create an Org" box shadow: 8px 8px 0 rgba(128,83,35,.2)
   "Create an Org" letters color: white
 
-*/ ;
+*/
+
+.third {
+  display: flex;
+  margin: 0px 5vw 0px 5vw;
+}
+
+.third h4 {
+  color: #ed1c24;
+}
+
+.third img {
+  width: 30px;
+  height: 30px;
+}
+
+.third article {
+  width: 80%;
+  padding: 20px 20px;
+}
+
+.createOrg {
+  padding: 10px;
+  background-color: black;
+  box-shadow: 8px 8px light gray;
+  width: 300px;
+  text-align: center;
+  margin: 10px auto 80px auto;
+}
+
+.createOrgContainer {
+  text-decoration: none;
+  color: white;
+}
