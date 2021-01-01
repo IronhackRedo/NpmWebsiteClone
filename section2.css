@@ -1,0 +1,40 @@
+/*
+section 2
+  heading background color: rgba(255,204,53,.4)
+  to get the transform of the yellow background in the left-hand direction use: transform: skew(9deg,0deg);
+  to get it in the opposite direction of the letters, the way we need it on the page, use: font-style: italic;
+  to additionally fine-tune the position of each element, use margin property.
+*/
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5px;
+  height: 100vh;
+  position: relative;
+  bottom: 7vh;
+}
+
+.second img {
+  width: 200px;
+  height: 200px;
+}
+
+.second p {
+  text-align: center;
+  width: 82vw;
+  font-size: 1.2em;
+}
+
+.secondHeader {
+  background-color: rgba(255, 204, 53, 0.4);
+  width: 630px;
+  text-align: center;
+  transform: skew(10deg);
+}
+
+.secondHeader h2 {
+  font-size: 1.6em;
+  transform: skew(-10deg);
+}

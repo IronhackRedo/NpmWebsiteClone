@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/*
+section 3
+  color of the letters in each heading in this section: #ED1C24
+  "Create an Org" box shadow: 8px 8px 0 rgba(128,83,35,.2)
+  "Create an Org" letters color: white
+
+*/ ;

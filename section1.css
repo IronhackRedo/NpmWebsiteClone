@@ -1,0 +1,28 @@
+/*
+section 1
+  suggested height for this section: 600px
+  background color: rgba(232,217,217,.3)
+  "See plans" button background color: #FB3B49
+  "See plans" button box shadow: 8px 8px 0 rgba(251,59,73,.2)
+*/
+.first {
+  position: relative;
+  bottom: 46px;
+  background-color: rgba(232, 217, 217, 0.3);
+  text-align: center;
+  height: 83vh;
+}
+
+.first > * {
+  padding-top: 40px;
+}
+
+.first h1 {
+  font-size: 3.5em;
+}
+
+.first aside {
+  margin: 0px auto;
+  padding-top: 0px;
+  width: 390px;
+}
