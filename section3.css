@@ -1,0 +1,50 @@
+/*
+section 3
+  color of the letters in each heading in this section: #ED1C24
+  "Create an Org" box shadow: 8px 8px 0 rgba(128,83,35,.2)
+  "Create an Org" letters color: white
+
+*/
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5vw 0px 5vw;
+}
+
+.third h4 {
+  color: #ed1c24;
+}
+
+.third img {
+  width: 30px;
+  height: 30px;
+}
+
+.third article {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.createOrg {
+  padding: 10px;
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  margin: 8vh auto 80px auto;
+  box-shadow: 8px 8px lightgray;
+  font-weight: 800;
+}
+
+.createOrgContainer {
+  text-decoration: none;
+  color: white;
+}
+
+.createOrg:hover {
+  transition: 0.4s;
+  background-color: gray;
+  color: black;
+}
