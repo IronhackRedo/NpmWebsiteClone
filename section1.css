@@ -5,12 +5,45 @@ section 1
   "See plans" button background color: #FB3B49
   "See plans" button box shadow: 8px 8px 0 rgba(251,59,73,.2)
 */
+
 .first {
   position: relative;
   bottom: 46px;
   background-color: rgba(232, 217, 217, 0.3);
   text-align: center;
   height: 83vh;
+}
+
+.first button {
+  padding: 15px 60px;
+  margin: 0 15px;
+  border: 0px;
+  border-radius: 2px solid black;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.section1plansBtn {
+  background-color: #fb3e44;
+  box-shadow: 8px 8px lightpink;
+  color: white;
+}
+
+.section1plansBtn:hover {
+  transition: 0.4s;
+  background-color: lightpink;
+  box-shadow: 8px 8px #fb3e44;
+  color: blue;
+}
+
+.section1joinBtn {
+  background-color: white;
+}
+
+.section1joinBtn:hover {
+  transition: 0.3s;
+  background-color: lightgray;
+  color: blue;
 }
 
 .first > * {

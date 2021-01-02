@@ -58,7 +58,7 @@ header and nav bar
 }
 
 .search input[type="text"] {
-  width: 60vw;
+  width: 50vw;
   position: relative;
   bottom: 0.2vh;
   height: 34px;
@@ -69,6 +69,7 @@ header and nav bar
 }
 
 .search button {
+  transition: 0.2s;
   position: relative;
   bottom: 1px;
   right: 5.5px;
@@ -76,13 +77,13 @@ header and nav bar
   padding: 0 12px;
   border-radius: 0;
   border: 0px;
-  background-color: red;
+  background-color: #fb3e44;
   color: white;
   font-size: 1em;
 }
 
 .search button:hover {
-  color: black;
+  color: blue;
 }
 
 #searchbar::-webkit-input-placeholder {
@@ -112,6 +113,11 @@ header and nav bar
   height: 15px;
 }
 
+.npmLogo:hover {
+  transition: 0.25s ease;
+  height: 17px;
+}
+
 .magnifyingGlass {
   position: relative;
   top: 2px;
@@ -124,11 +130,25 @@ header and nav bar
 .bottomHeader a {
   text-decoration: none;
   color: black;
+  padding: 4.5px 20px;
 }
 
 .joinBtn {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.joinBtn:hover {
+  transition: 0.3s;
+  background-color: lightgray;
+  color: blue;
 }
 
 .loginBtn {
+  color: lightgray;
+}
+
+.loginBtn:hover {
+  color: blue;
 }
 /* end header and navbar */
